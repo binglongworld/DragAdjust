@@ -1,0 +1,55 @@
+/* line 5, C:/Program Files (x86)/Koala/rubygems/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video { margin: 0; padding: 0; border: 0; font: inherit; font-size: 100%; vertical-align: baseline; }
+ 
+/* line 22, C:/Program Files (x86)/Koala/rubygems/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
+html { line-height: 1; }
+ 
+/* line 24, C:/Program Files (x86)/Koala/rubygems/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
+ol, ul { list-style: none; }
+ 
+/* line 26, C:/Program Files (x86)/Koala/rubygems/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
+table { border-collapse: collapse; border-spacing: 0; }
+ 
+/* line 28, C:/Program Files (x86)/Koala/rubygems/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
+caption, th, td { text-align: left; font-weight: normal; vertical-align: middle; }
+ 
+/* line 30, C:/Program Files (x86)/Koala/rubygems/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
+q, blockquote { quotes: none; }
+/* line 103, C:/Program Files (x86)/Koala/rubygems/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
+q:before, q:after, blockquote:before, blockquote:after { content: ""; content: none; }
+ 
+/* line 32, C:/Program Files (x86)/Koala/rubygems/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
+a img { border: none; }
+ 
+/* line 116, C:/Program Files (x86)/Koala/rubygems/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary { display: block; }
+ 
+/* line 3, ../Sass/DragAdjust.scss */
+body { padding: 0px; margin: 0px; height: 100%; }
+ 
+/* line 5, ../Sass/DragAdjust.scss */
+/* .drag-all { width: 100%; height: 500px; background: #000; filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=50); opacity: 0.5; position: absolute; top: 0px; left: 0px; } */
+.drag-all { width: 400px; height: 300px; background: #000; filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=50); opacity: 0.5; position: absolute; top: 0px; left: 0px; }
+.drag-box-normal { position: absolute; width: 100px; height: 100px; top: 50px; left: 50px; z-index: 100; background: #fff; cursor: move; border: 1px dashed #000; }
+/* line 15, ../Sass/DragAdjust.scss */
+/* .drag-box { position: absolute; width: 100px; height: 100px; top: 50px; left: 50px; z-index: 100; background: #fff; cursor: move; border: 1px dashed #000; } */
+.drag-box { position: absolute; z-index: 100; background: #fff; cursor: move; border: 1px dashed #000; }
+/* line 16, ../Sass/DragAdjust.scss */
+.drag-box s { position: absolute; width: 5px; height: 5px; background: #fff; display: block; overflow: hidden; border: 1px solid #000; }
+/* line 17, ../Sass/DragAdjust.scss */
+.drag-box s.wn { top: -4px; left: -4px; cursor: nw-resize; }
+/* line 18, ../Sass/DragAdjust.scss */
+.drag-box s.sn { top: -4px; left: 50%; margin-left: -4px; cursor: ns-resize; }
+/* line 19, ../Sass/DragAdjust.scss */
+.drag-box s.en { top: -4px; right: -4px; cursor: ne-resize; }
+/* line 20, ../Sass/DragAdjust.scss */
+.drag-box s.ew { top: 50%; left: -4px; margin-top: -4px; cursor: ew-resize; }
+/* line 21, ../Sass/DragAdjust.scss */
+.drag-box s.we { top: 50%; right: -4px; margin-top: -4px; cursor: ew-resize; }
+/* line 22, ../Sass/DragAdjust.scss */
+.drag-box s.ws { bottom: -4px; left: -4px; cursor: sw-resize; }
+/* line 23, ../Sass/DragAdjust.scss */
+.drag-box s.ns { bottom: -4px; left: 50%; margin-left: -4px; cursor: ns-resize; }
+/* line 24, ../Sass/DragAdjust.scss */
+.drag-box s.es { bottom: -4px; right: -4px; cursor: se-resize; }
+ 
